@@ -12,7 +12,7 @@ terraform {
 
   required_version = ">= 0.15"
 
-  backend "remote" {
+  cloud {
     organization = "beckst"
 
     workspaces {
